@@ -7,8 +7,20 @@ export class Menu extends Component {
         return (
             <nav id="menu" role="navigation" className="menu">
                 <ul>
-                    <li className="menu-hasdropdown"><a>Home</a>
+                    <li className="menu"><a href={process.env.PUBLIC_URL + '/'}>Μουσικός Σύλλογος</a></li>
+                    <li><a href={process.env.PUBLIC_URL + '/studio'}>Studio</a></li>
+                    {/* <li className="menu-hasdropdown"><a>Studio</a>
                         <ul className="menu-dropdown">
+                            <li><a href={process.env.PUBLIC_URL + '/studio'}>Το Studio Μας</a></li>
+                            <li><a href={process.env.PUBLIC_URL + '/equipment'}>Εξοπλισμός</a></li>
+                        </ul>
+                    </li> */}
+                    <li className="menu"><a href={process.env.PUBLIC_URL + '/live'}>Live</a></li>
+                    <li className="menu"><a href={process.env.PUBLIC_URL + '/gallery'}>Gallery</a></li>
+                    <li><a href={'https://www.google.com/'} target="_blank">Web radio</a></li>
+                    <li><a href={process.env.PUBLIC_URL + '/Contact_01'}>Επικοινωνία</a></li>
+                    {/* <li className="menu-hasdropdown"><a>Home</a>
+                        < ul className="menu-dropdown">
                             <li><a href={process.env.PUBLIC_URL + '/'}>Homepage 1</a></li>
                             <li><a href={process.env.PUBLIC_URL + '/Home2'}>Homepage 2</a></li>
                             <li><a href={process.env.PUBLIC_URL + '/Home3'}>Homepage 3</a></li>
@@ -21,8 +33,8 @@ export class Menu extends Component {
                                 </ul>
                             </li>
                         </ul>
-                    </li>
-                    <li className="menu-hasdropdown"><a>pages</a>
+                    </li> */}
+                    {/* <li className="menu-hasdropdown"><a>pages</a>
                         <ul className="menu-dropdown">
                             <li><a href={process.env.PUBLIC_URL + '/aboutus_01'}>About Us 1</a></li>
                             <li><a href={process.env.PUBLIC_URL + '/aboutus_02'}>About Us 2</a></li>
@@ -35,8 +47,8 @@ export class Menu extends Component {
                             <li><a href={process.env.PUBLIC_URL + '/Error'}>Error Page</a></li>
                             <li><a href={process.env.PUBLIC_URL + '/Element'}>Elements</a></li>
                         </ul>
-                    </li>
-                    <li className="menu-hasdropdown"><a>services</a>
+                    </li> */}
+                    {/* <li className="menu-hasdropdown"><a>services</a>
                         <ul className="menu-dropdown">
                             <li><a href={process.env.PUBLIC_URL + '/it_consultancy'}>IT Consultancy</a></li>
                             <li><a href={process.env.PUBLIC_URL + '/digital_services'}>Digital Services</a></li>
@@ -45,8 +57,8 @@ export class Menu extends Component {
                             <li><a href={process.env.PUBLIC_URL + '/experience_design'}>Experience Design</a></li>
                             <li><a href={process.env.PUBLIC_URL + '/content_engineering'}>Content Engineering</a></li>
                         </ul>
-                    </li>
-                    <li className="menu-hasdropdown"><a>Project</a>
+                    </li> */}
+                    {/* <li className="menu-hasdropdown"><a>Project</a>
                         <ul className="menu-dropdown">
                             <li><a href={process.env.PUBLIC_URL + '/project_style1'}>Project Style 1</a></li>
                             <li><a href={process.env.PUBLIC_URL + '/project_style2'}>Project Style 2</a></li>
@@ -59,8 +71,8 @@ export class Menu extends Component {
                                 </ul>
                             </li>
                         </ul>
-                    </li>
-                    <li className="menu-hasdropdown"><a>Blog</a>
+                    </li> */}
+                    {/* <li className="menu-hasdropdown"><a>Blog</a>
                         <ul className="menu-dropdown">
                             <li><a href={process.env.PUBLIC_URL + '/blog'}>Blog Classic</a></li>
                             <li><a href={process.env.PUBLIC_URL + '/blog_grid'}>Blog Grid View</a></li>
@@ -68,15 +80,15 @@ export class Menu extends Component {
                             <li><a href={process.env.PUBLIC_URL + '/blog_left_image'}>Blog Left Image</a></li>
                             <li><a href={process.env.PUBLIC_URL + '/single_blog'}>Blog Single View</a></li>
                         </ul>
-                    </li>
-                    <li className="menu-hasdropdown"><a>Shop</a>
+                    </li> */}
+                    {/* <li className="menu-hasdropdown"><a>Shop</a>
                         <ul className="menu-dropdown">
                             <li><a href={process.env.PUBLIC_URL + '/Shop'}>Default Shop</a></li>
                             <li><a href={process.env.PUBLIC_URL + '/Product_details'}>Single Product Details</a></li>
                             <li><a href={process.env.PUBLIC_URL + '/Cart'}>Cart</a></li>
                             <li><a href={process.env.PUBLIC_URL + '/Checkout'}>Checkout</a></li>
                         </ul>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
     

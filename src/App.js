@@ -15,6 +15,13 @@ import Home2_Header2 from './components/Header_style_02';
 import Home3_Header3 from './components/Header_style_03';
 import Aboutus_01 from './components/pages/Aboutus_01';
 import Aboutus_02 from './components/pages/Aboutus_02';
+import Studio from './components/pages/Studio';
+import Equipment from './components/pages/Equipment';
+import Live from './components/pages/Live';
+import Gallery from './components/pages/Gallery';
+import Productions from './components/pages/Productions';
+import GalleryStudio from './components/pages/GalleryStudio';
+import Cooperation from './components/pages/Cooperation';
 import Services_01 from './components/pages/Services_01';
 import Services_02 from './components/pages/Services_02';
 import Our_expert from './components/pages/Our_expert';
@@ -66,6 +73,13 @@ function App() {
             <Route path='/header_style_03' component={ Home3_Header3 } />
             <Route path="/aboutus_01" component={Aboutus_01} />
             <Route path="/aboutus_02" component={Aboutus_02} />
+            <Route path="/studio" component={Studio} />
+            <Route path="/equipment" component={Equipment} />
+            <Route path="/live" component={Live} />
+            <Route path="/gallery" component={Gallery} />
+            <Route path="/productions" component={Productions} />
+            <Route path="/galleryStudio" component={GalleryStudio} />
+            <Route path="/cooperation" component={Cooperation} />
             <Route path="/services_01" component={Services_01} />
             <Route path="/services_02" component={Services_02} />
             <Route path="/our_expert" component={Our_expert} />
