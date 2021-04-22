@@ -76,11 +76,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 a {
-  color: #263045;
+  color: #1e272c;
 }
 
 a:not([href]) {
-  color: #263045;
+  color: #1e272c;
 }
 
 a:focus {
@@ -95,7 +95,7 @@ a:hover {
 
 a, button, input {
   outline: medium none;
-  color: #263045;
+  color: #1e272c;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
@@ -141,7 +141,7 @@ p {
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #263045;
+  border-color: #1e272c;
 }
 
 textarea:focus, input:focus {
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   margin-bottom: 15px;
   font-weight: 600;
-  color: #263045;
+  color: #1e272c;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
@@ -211,7 +211,7 @@ body .page .site-main {
   bottom: 30px;
   left: 30px;
   padding: 15px 30px 15px 30px;
-  border-left: 8px solid #263045;
+  border-left: 8px solid #1e272c;
   background-color: #2d4a8a;
 }
 
@@ -432,11 +432,11 @@ body .page .site-main {
 
 /** Darkgreycolor **/
 .ttm-textcolor-darkgrey {
-  color: #263045;
+  color: #1e272c;
 }
 
 .ttm-bgcolor-darkgrey, .ttm-bgcolor-skincolor [data-tooltip]:after {
-  background-color: #263045;
+  background-color: #1e272c;
 }
 
 .ttm-bgcolor-darkgrey, .ttm-bgcolor-darkgrey blockquote {
@@ -448,7 +448,7 @@ body .page .site-main {
 }
 
 .ttm-bgcolor-skincolor [data-tooltip]:before {
-  border-top-color: #263045;
+  border-top-color: #1e272c;
 }
 
 /** Greycolor **/
@@ -640,7 +640,7 @@ body .page .site-main {
 
 .ttm-topbar-wrapper .header-btn a.ttm-btn:hover {
   background-color: #fff;
-  color: #263045;
+  color: #1e272c;
 }
 
 /* ===============================================
@@ -746,7 +746,7 @@ li.menu-hasdropdown.active a {
 
 li.menu-hasdropdown a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
-  color: #263045;
+  color: #1e272c;
   display: block;
   padding: 15px 0;
   position: relative;
@@ -1240,7 +1240,7 @@ li.menu-hasdropdown ul li a {
   width: 40px;
   height: 40px;
   font-size: 20px;
-  background-color: #263045;
+  background-color: #1e272c;
   color: #fff;
   font-weight: 900;
   z-index: 999;
@@ -1332,13 +1332,13 @@ li.menu-hasdropdown ul li a {
 }
 
 #Home_banner .carousel-inner .carousel-item, #Home_banner2 .carousel-inner .carousel-item {
-  height: calc(850px - 52px);
+  height: calc(1080px - 52px);
 }
 
 #Home_banner .carousel-inner .carousel-item img, #Home_banner2 .carousel-inner .carousel-item img {
   -o-object-fit: cover;
      object-fit: cover;
-  min-height: calc(850px - 52px);
+  min-height: calc(1080px - 52px);
 }
 
 #Home_banner .carousel-caption, #Home_banner2 .carousel-caption {
@@ -1350,10 +1350,13 @@ li.menu-hasdropdown ul li a {
 #Home_banner .carousel-caption-inner, #Home_banner2 .carousel-caption-inner {
   text-align: left;
   max-width: 690px;
+  /* margin-left: -10%;
+  padding-bottom: 200px; */
 }
 
 #Home_banner .carousel-caption-inner.banner2, #Home_banner2 .carousel-caption-inner.banner2 {
-  float: right;
+  /* padding-bottom: 400px;
+  margin-left: -15%; */
 }
 
 #Home_banner .carousel-caption-inner.banner3, #Home_banner2 .carousel-caption-inner.banner3 {
@@ -1413,7 +1416,7 @@ li.menu-hasdropdown ul li a {
   letter-spacing: 0px;
   font-weight: 400;
   font-size: 16px;
-  color: #3b404c;
+  color: #fff;
 }
 
 #Home_banner .carousel-caption-inner button, #Home_banner2 .carousel-caption-inner button {
@@ -1506,7 +1509,7 @@ li.menu-hasdropdown ul li a {
 }
 
 #Home_banner2 .effect span:nth-child(3) {
-  background-color: #263045;
+  background-color: #1e272c;
   width: 25px;
   height: 25px;
   top: auto;
@@ -1833,7 +1836,7 @@ article.ttm-blog-classic .ttm-commentbox i, article.ttm-blog-classic svg {
   line-height: 30px;
   font-style: italic;
   color: #6e6e6e;
-  border-left: 4px solid #263045;
+  border-left: 4px solid #1e272c;
 }
 
 .ttm-blog-single-content blockquote::before {
@@ -2011,7 +2014,7 @@ article.ttm-blog-classic .ttm-commentbox i, article.ttm-blog-classic svg {
   position: relative;
   margin-top: 5px;
   display: inline-block;
-  background-color: #263045;
+  background-color: #1e272c;
 }
 
 .comment-list a.comment-reply-link::after {
@@ -2190,7 +2193,7 @@ article.ttm-blog-classic .ttm-commentbox i, article.ttm-blog-classic svg {
   font-size: 15px;
   line-height: 20px;
   padding-left: 24px;
-  color: #263045;
+  color: #1e272c;
 }
 
 .ttm-team-details-list .ttm-team-list-title i, .ttm-team-details-list .ttm-team-list-title svg {

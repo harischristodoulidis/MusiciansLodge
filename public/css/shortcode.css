@@ -486,7 +486,7 @@
 
 .ttm-btn.ttm-bgcolor-darkgrey {
   color: #fff;
-  border-color: #263045;
+  border-color: #1e272c;
 }
 
 .ttm-btn.ttm-bgcolor-darkgrey:hover {
@@ -501,9 +501,9 @@
 }
 
 .ttm-btn.ttm-bgcolor-skincolor:hover {
-  background-color: #263045;
+  background-color: #1e272c;
   color: #fff;
-  border-color: #263045;
+  border-color: #1e272c;
 }
 
 .ttm-btn.ttm-bgcolor-grey:hover {
@@ -516,13 +516,13 @@
 }
 
 .ttm-btn.ttm-btn-style-border.ttm-btn-color-darkgrey {
-  border-color: #263045;
+  border-color: #1e272c;
   background-color: transparent;
-  color: #263045;
+  color: #1e272c;
 }
 
 .ttm-btn.ttm-btn-style-border.ttm-btn-color-darkgrey:hover {
-  background-color: #263045;
+  background-color: #1e272c;
   color: #fff;
 }
 
@@ -545,7 +545,7 @@
 
 .ttm-btn.ttm-btn-style-border.ttm-btn-color-white:hover {
   background-color: #fff;
-  color: #263045;
+  color: #1e272c;
 }
 
 .ttm-btn.rounded-circle {
@@ -577,7 +577,7 @@
   padding: 0 !important;
   border: 1px solid transparent;
   background-color: transparent;
-  color: #263045;
+  color: #1e272c;
   overflow: visible;
 }
 
@@ -586,11 +586,11 @@
 }
 
 .btn-inline.ttm-btn-color-skincolor:hover {
-  color: #263045;
+  color: #1e272c;
 }
 
 .btn-inline.ttm-btn-color-darkgrey {
-  color: #263045;
+  color: #1e272c;
 }
 
 .btn-inline.ttm-btn-color-darkgrey:hover {
@@ -702,7 +702,7 @@
 }
 
 .ttm-icon.ttm-icon_element-border.ttm-textcolor-skincolor {
-  border-color: #263045;
+  border-color: #1e272c;
 }
 
 /** icon-size **/
@@ -1116,7 +1116,7 @@
 .featured-icon-box.iconalign-before-heading .ttm-icon.style1 .ttm-num:before {
   font-size: 20px;
   font-weight: 600;
-  color: #263045;
+  color: #1e272c;
 }
 
 .featured-icon-box.iconalign-before-heading .featured-title {
@@ -1153,7 +1153,7 @@ body {
   margin: auto;
   top: 50%;
   left: 0;
-  background-color: #263045;
+  background-color: #1e272c;
 }
 
 .featured-icon-box.style1 {
@@ -1530,7 +1530,7 @@ body {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   text-align: center;
-  background-color: #263045;
+  background-color: #1e272c;
 }
 
 .featured-imagebox-portfolio .featured-content .featured-title h5 a {
@@ -1680,7 +1680,7 @@ body {
   opacity: .6;
   -webkit-transform: translateY(0);
           transform: translateY(0);
-  background-color: #263045;
+  background-color: #1e272c;
 }
 
 .featured-imagebox-blog.style2 {
@@ -1896,7 +1896,7 @@ body {
     13.List box
 ------------------------*/
 .ttm-list.ttm-list-style-icon li {
-  color: #263045;
+  color: #1e272c;
   padding-left: 27px;
   list-style: none;
   position: relative;
@@ -1968,7 +1968,7 @@ body {
   margin-right: 5px;
   font-size: 16px;
   font-weight: 500;
-  background-color: #263045;
+  background-color: #1e272c;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -2122,7 +2122,7 @@ body {
 }
 
 .testimonial-slide.style1.ttm-bgcolor-white h6 {
-  color: #263045;
+  color: #1e272c;
 }
 
 .testimonial-slide.style1.ttm-bgcolor-white label {
@@ -2201,7 +2201,7 @@ body {
   border: 1px solid #ddd;
   padding: 17px 37px 17px 17px;
   font-size: 17px;
-  color: #263045;
+  color: #1e272c;
 }
 
 .accordion__button::after {
@@ -2210,7 +2210,7 @@ body {
   right: 20px;
   top: 18px;
   content: "\e61a";
-  color: #263045;
+  color: #1e272c;
   font-size: 14px;
   font-weight: bold;
 }
@@ -2255,11 +2255,11 @@ body {
 
 .accordion.style2 .accordion__button:hover {
   background-color: transparent;
-  color: #263045;
+  color: #1e272c;
 }
 
 .accordion.style2 .accordion__button:hover::after {
-  color: #263045;
+  color: #1e272c;
 }
 
 .accordion.style2 .accordion__item {
@@ -2445,7 +2445,7 @@ body {
           flex: 1 1 auto;
   text-align: center;
   position: relative;
-  color: #263045;
+  color: #1e272c;
   margin-bottom: 0;
 }
 
@@ -2519,7 +2519,7 @@ body {
   margin-right: 5px;
   margin-bottom: 5px;
   border-radius: 0;
-  color: #263045;
+  color: #1e272c;
   border: 1px solid;
   font-weight: 600;
   padding: 6px 22px;
@@ -2653,7 +2653,7 @@ body {
   width: 100%;
   color: #fff;
   padding: 12px 15px;
-  background-color: #263045;
+  background-color: #1e272c;
 }
 
 .ttm-pricing-plan .ttm-featured-title i {
@@ -2739,7 +2739,7 @@ body {
 
 .sidebar .widget-area .widget .widget-title {
   margin-bottom: 15px;
-  color: #263045;
+  color: #1e272c;
 }
 
 .sidebar .widget-area .widget .widget-title::before {
@@ -2979,7 +2979,7 @@ ul.ttm-recent-post-list li .post-date i, ul.ttm-recent-post-list li .post-date s
   position: relative;
   background-color: transparent;
   border: 1px solid #f0f0f0;
-  color: #263045;
+  color: #1e272c;
   z-index: 1;
   font-weight: 500;
   font-size: 15px;
@@ -3027,7 +3027,7 @@ ul.ttm-recent-post-list li .post-date i, ul.ttm-recent-post-list li .post-date s
 }
 
 .widget.widget-nav-menu ul li a:hover::before, .widget.widget-nav-menu ul li a.active::before {
-  background-color: #263045;
+  background-color: #1e272c;
   color: #fff;
 }
 
@@ -3045,7 +3045,7 @@ ul.ttm-recent-post-list li .post-date i, ul.ttm-recent-post-list li .post-date s
 .sidebar .widget-categories ul li a {
   padding-left: 20px;
   position: relative;
-  color: #263045;
+  color: #1e272c;
 }
 
 .sidebar .widget-categories ul li a:hover {
@@ -3120,7 +3120,7 @@ ul.ttm-recent-post-list li .post-date i, ul.ttm-recent-post-list li .post-date s
 .widget-download ul.download li {
   display: block;
   width: 100%;
-  background-color: #263045;
+  background-color: #1e272c;
   border: none;
   margin-bottom: 15px;
   padding: 0;
@@ -3130,7 +3130,7 @@ ul.ttm-recent-post-list li .post-date i, ul.ttm-recent-post-list li .post-date s
   color: #fff;
   font-size: 28px;
   padding-right: 20px;
-  background: #263045;
+  background: #1e272c;
   width: 63px;
   height: 60px;
   padding: 15px 19px;
@@ -3338,7 +3338,7 @@ ul.ttm-recent-post-list li .post-date i, ul.ttm-recent-post-list li .post-date s
           transform: translateY(20px);
   -webkit-transition: all 500ms;
   transition: all 500ms;
-  background-color: #263045;
+  background-color: #1e272c;
 }
 
 .ttm-shop-icon .product-btn a {
@@ -3498,19 +3498,19 @@ ul.ttm-recent-post-list li .post-date i, ul.ttm-recent-post-list li .post-date s
   font-weight: 500;
   padding: 11px 30px;
   font-size: 16px;
-  border: 1px solid #263045;
+  border: 1px solid #1e272c;
   margin: 0 4px;
   position: relative;
   margin-bottom: 0;
   color: #fff;
   text-transform: capitalize;
   border-radius: 0;
-  background-color: #263045;
+  background-color: #1e272c;
 }
 
 .ttm-tabs.tabs-for-single-products ul.react-tabs__tab-list li.react-tabs__tab--selected, .ttm-tabs.tabs-for-single-products ul.react-tabs__tab-list li:focus {
   background-color: #fff !important;
-  color: #263045;
+  color: #1e272c;
   border-color: #e4e4e4 !important;
   border-radius: 0;
   -webkit-box-shadow: none;

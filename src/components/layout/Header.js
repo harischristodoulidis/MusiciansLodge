@@ -15,16 +15,14 @@ export class Header extends Component {
                     <div className="container-xl">
                         <div className="row">
                                 <div className="col-lg-5">
-                                    <ul className="top-contact text-left">
-                                        <li><i className="far fa-envelope" />&nbsp;&nbsp;< a to="mailto:wdstudioproductionsfive@gmail.com">wdstudioproductionsfive@gmail.com</ a></li>
-                                    </ul>
+                                Μουσικός Σύλλογος - Musicians Lodge
                                 </div>
                                 <div className="col-lg-7">
                                     <div className="topbar-right text-right d-flex justify-content-end">
                                         <div className="ttm-social-links-wrapper list-inline">
                                             <ul className="social-icons">
                                                 <li>
-                                                    <a className=" tooltip-bottom" data-tooltip="Facebook" href="https://www.facebook.com/westdreamstudio" target="_blank">
+                                                    <a className=" tooltip-bottom" data-tooltip="Facebook" href="https://www.facebook.com/musicianslodge" target="_blank">
                                                         <i className="fab fa-facebook-f" />
                                                     </a>
                                                 </li>
@@ -33,7 +31,7 @@ export class Header extends Component {
                                                     </ a>
                                                 </li>
                                                 <li>
-                                                    <a className=" tooltip-bottom" data-tooltip="Instagram" href="https://www.instagram.com/westdreamstudio" target="_blank">
+                                                    <a className=" tooltip-bottom" data-tooltip="Instagram" href="https://www.instagram.com/explore/locations/102424078215404/musicians-lodge/" target="_blank">
                                                         <i className="fab fa-instagram" />
                                                     </a>
                                                 </li>
@@ -53,13 +51,13 @@ export class Header extends Component {
                             {/* site-branding */}
                             <div className="site-branding">
                             <a className="home-link" href={process.env.PUBLIC_URL + '/'} title="WDS Productions 5 " rel="home">
-                                <img id="logo-img" className="img-fluid" alt="logo" src="images/mylogo.jpg" />
+                                <img id="logo-img" className="img-fluid" alt="logo" src="images/musicians_lodge_logo.jpg" />
                             </a>
                             </div>
                             {/* site-branding end*/}
                             {/*site-navigation */}
                             <div className="site-navigation">
-                                <div className="ttm-right-header">
+                                {/* <div className="ttm-right-header">
                                     <ul className="ttm-header-icons">
                                         <li className="ttm-header-search-link ttm-bgcolor-skincolor ttm-textcolor-white">
                                         <a onClick={this.toggle}> {this.state.show ? <i className="ti-close" /> : <i className="ti-search" />}</a>
@@ -79,7 +77,7 @@ export class Header extends Component {
                                         </div>}
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 <Menu />
                                 <div className="mobilemenu"><Mobilemenu/></div>
                             </div>

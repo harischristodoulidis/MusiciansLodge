@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import {createBrowserHistory} from 'history';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+// import {createBrowserHistory} from 'history';
+// import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 export class MenuStudio extends Component {
     render() {
         return (
             <nav id="menu" role="navigation" className="menu">
                 <ul>
-                    <li className="menu"><a href={process.env.PUBLIC_URL + '/'}>Μουσικός Σύλλογος</a></li>
-                    <li><a href={process.env.PUBLIC_URL + '/studio'}>Studio</a></li>
+                    <li className="menu"><a href={process.env.PUBLIC_URL + '/'}>Musicians Lodge</a></li>
+                    <li><a href={process.env.PUBLIC_URL + '/studio'}>West Dream Studio Productions</a></li>
                     {/* <li className="menu-hasdropdown"><a>Studio</a>
                         <ul className="menu-dropdown">
                             <li><a href={process.env.PUBLIC_URL + '/studio'}>Το Studio Μας</a></li>

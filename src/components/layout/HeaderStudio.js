@@ -53,7 +53,7 @@ export class HeaderStudio extends Component {
                             {/* site-branding */}
                             <div className="site-branding">
                             <a className="home-link" href={process.env.PUBLIC_URL + '/'} title="WDS Productions 5 " rel="home">
-                                <img id="logo-img" className="img-fluid" alt="logo" src="images/musician_lodge_logo.jpg" />
+                                <img id="logo-img" className="img-fluid" alt="logo" src="images/wds_logo.jpg" />
                             </a>
                             </div>
                             {/* site-branding end*/}

@@ -17,21 +17,24 @@ export class CarouselPage extends Component {
             <MDBCarouselInner>
                 <MDBCarouselItem itemId="1">
                 <MDBView>
-                    <img className="d-block w-100" src="https://via.placeholder.com/1920X850/888888.jpg" alt="First slide" />
+                    <img className="d-block w-100" src="images/sliders/slider1.jpg" alt="First slide" />
                 </MDBView>
                 <MDBCarouselCaption>
                     <div className="container-xl">
                         <div className="carousel-caption-inner banner1">
                             <MDBAnimation className="slideInUp" count={1} delay="2s" >
-                                <h2 className="ttm-textcolor-darkgrey flipInY">Best <strong className="ttm-textcolor-skincolor">Platform</strong> to Grow Your Bussiness</h2>
+                                {/* <h3 style={{fontSize: "50px"}} className="ttm-textcolor-darkgrey flipInY"><strong className="ttm-textcolor-skincolor">Σύλλογος Εναλλακτικής Μουσικής Σκηνής Αγρινίου</strong></h3> */}
+                                <h2 className="ttm-textcolor-darkgrey flipInY"><strong className="ttm-textcolor-skincolor">Σύλλογος Εναλλακτικής Μουσικής Σκηνής Αγρινίου</strong></h2>
                             </MDBAnimation>
                             <MDBAnimation className="slideInUp" count={1} delay="2.5s" >
-                            <p className="text">We are equipped with an updated technical knowledge to serve our customers<br /> properly. Our method of application maintains the industry.</p>
+                            <p className="text">Οι μουσικοί της πόλης του Αγρινίου ενώνουν τις<br />δυνάμεις τους προβάλλοντας την τέχνη της μουσικής </p>
                             </MDBAnimation>
                             <MDBAnimation className="slideInUp" count={1} delay="3s" >
                             <p>
-                                <button className="ttm-btn ttm-btn-size-md ttm-bgcolor-skincolor ttm-textcolor-white">Discuss Your Project </button>&nbsp; &nbsp;
-                                <button className="ttm-btn btn-inline ttm-btn-size-md ttm-textcolor-darkgrey ml-3"><i className="ti-arrow-circle-right" />get a Quote</button>
+                                <button className="ttm-btn ttm-btn-size-md ttm-bgcolor-skincolor ttm-textcolor-white" onClick={(e) => {e.preventDefault();window.location.href='/live';}}>Τα Live Μας 
+                                </button>&nbsp; &nbsp;
+                                <button className="ttm-btn ttm-btn-size-md ttm-bgcolor-skincolor ttm-textcolor-white" onClick={(e) => {e.preventDefault();window.location.href='/gallery';}}>Φωτογραφίες  Συλλόγου
+                                </button>
                             </p>                            
                             </MDBAnimation>
                         </div>
@@ -40,9 +43,9 @@ export class CarouselPage extends Component {
                 </MDBCarouselItem>
                 <MDBCarouselItem itemId="2">
                 <MDBView>
-                    <img className="d-block w-100" src="https://via.placeholder.com/1920X850/888888.jpg" alt="Second slide" />
+                    <img className="d-block w-100" src="images/sliders/slider2.jpg" alt="Second slide" />
                 </MDBView>
-                <MDBCarouselCaption>
+                {/* <MDBCarouselCaption>
                     <div className="container-xl">
                         <div className="carousel-caption-inner banner2">
                             <MDBAnimation className="slideInUp" count={1} delay="5s" >
@@ -51,15 +54,9 @@ export class CarouselPage extends Component {
                             <MDBAnimation className="slideInUp" count={1} delay="5.5s" >
                                 <p className="text">We are equipped with an updated technical knowledge to serve our customers<br /> properly. Our method of application maintains the industry.</p>
                             </MDBAnimation>
-                            <MDBAnimation className="slideInUp" count={1} delay="6s" >
-                                <p>
-                                    <button className="ttm-btn ttm-btn-size-md ttm-bgcolor-skincolor ttm-textcolor-white mr-3">read more</button>
-                                    <button className="ttm-btn ttm-btn-size-md ttm-bgcolor-darkgrey ttm-textcolor-white">get altech</button>
-                                </p>
-                          </MDBAnimation>
                         </div>
                       </div>
-                </MDBCarouselCaption>
+                </MDBCarouselCaption> */}
                 </MDBCarouselItem>
             </MDBCarouselInner>
             </MDBCarousel>
